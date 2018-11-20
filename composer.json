@@ -1,0 +1,29 @@
+{
+    "name": "goclearsky/name-gen",
+    "description": "A CakePHP plugin to generate names for testing purposes",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Tallroth",
+            "email": "mike.tallroth@goclearsky.com"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NameGen\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NameGen\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
