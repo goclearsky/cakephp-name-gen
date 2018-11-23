@@ -1,9 +1,9 @@
 <?php
-namespace Goclearsky\NameGen\Shell;
+namespace Clearsky\NameGen\Shell;
 
 use Cake\Console\Shell;
 use Croogo\Core\Plugin;
-use Goclearsky\NameGen\Utility\Generator;
+use Clearsky\NameGen\Utility\Generator;
 
 /**
  * Test Shell
@@ -11,7 +11,7 @@ use Goclearsky\NameGen\Utility\Generator;
  * Provides a testing platform for the plugin
  *
  * @category Shell
- * @package  Goclearsky.NameGen.Shell
+ * @package  Clearsky.NameGen.Shell
  * @author   Mike Tallroth <mike.tallroth@goclearsky.com>
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://github.com/goclearsky/cakephp-name-gen
