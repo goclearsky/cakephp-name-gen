@@ -26,14 +26,9 @@ class Generator {
         $gConditions = [];
         $fConditions = [];
 
-        if (empty($locale)) {
-            $settings = TableRegistry::getTableLocator()->get('Croogo/Settings.Settings');
-            $locale = $settings->find()
-                ->where(['Settings.key' => 'Site.locale'])
-                ->first();
-            $locale = $locale->value;
+        if (!empty($locale)) {
+            $gConditions['locale'] = $fConditions['locale'] = $locale;
         }
-        $gConditions['locale'] = $fConditions['locale'] = $locale;
 
         if (!empty($gender)) {
             $gConditions['gender'] = $gender;
