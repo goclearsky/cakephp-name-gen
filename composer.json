@@ -1,5 +1,5 @@
 {
-    "name": "clearsky/name-gen",
+    "name": "goclearsky/name-gen",
     "description": "A CakePHP plugin to generate names for testing purposes",
     "type": "cakephp-plugin",
     "license": "MIT",
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Clearsky\\NameGen\\": "src"
+            "ClearSky\\NameGen\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Clearsky\\NameGen\\Test\\": "tests",
+            "ClearSky\\NameGen\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
