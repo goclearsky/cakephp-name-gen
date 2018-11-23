@@ -1,6 +1,17 @@
 <?php
 use Migrations\AbstractMigration;
 
+/**
+ * Initial Migration
+ *
+ * Sets up tables to hold the name pools
+ *
+ * @category Migration
+ * @package  ClearSky.NameGen
+ * @author   Mike Tallroth <mike.tallroth@goclearsky.com>
+ * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @link     http://github.com/goclearsky/cakephp-name-gen
+ */
 class NameGenInitialMigration extends AbstractMigration
 {
     public function up()

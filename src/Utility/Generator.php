@@ -3,6 +3,17 @@ namespace ClearSky\NameGen\Utility;
 
 use Cake\ORM\TableRegistry;
 
+/**
+ * Generator Utility
+ *
+ * Provides the one-stop api to the plugin
+ *
+ * @category Utility
+ * @package  ClearSky.NameGen
+ * @author   Mike Tallroth <mike.tallroth@goclearsky.com>
+ * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @link     http://github.com/goclearsky/cakephp-name-gen
+ */
 class Generator {
 
     /**
@@ -16,8 +27,8 @@ class Generator {
      * @param size the number of names to be returned in the result set
      * @param gender the gender of the results, null for any
      * @param locale the locale of the name set, null for any
-     * @param cardinality true to include middle name in uniqueness check
-     * @return array containing a set of arrays each containing given/middle/family
+     * @param cardinality 2 or 3 indicating given/family or given/middle/family
+     * @return array containing a set of name arrays
      */
     static function getNames($size, $gender = null, $locale = null, $cardinality = 2) {
 
@@ -75,7 +86,8 @@ class Generator {
             $name = $gName = $mName = $fName = null;
         }
 
-        echo $loopCount . "\n";
+        // todo - throw exception if requested set size was not achieved
+
         return $results;
 
     }

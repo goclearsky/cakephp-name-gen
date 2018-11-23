@@ -11,7 +11,7 @@ use ClearSky\NameGen\Utility\Generator;
  * Provides a testing platform for the plugin
  *
  * @category Shell
- * @package  ClearSky.NameGen.Shell
+ * @package  ClearSky.NameGen
  * @author   Mike Tallroth <mike.tallroth@goclearsky.com>
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://github.com/goclearsky/cakephp-name-gen

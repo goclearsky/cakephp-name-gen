@@ -1,6 +1,17 @@
 <?php
 use Migrations\AbstractSeed;
 
+/**
+ * US Seed
+ *
+ * Seeds the tables with top 100 US names
+ *
+ * @category Seed
+ * @package  ClearSky.NameGen
+ * @author   Mike Tallroth <mike.tallroth@goclearsky.com>
+ * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @link     http://github.com/goclearsky/cakephp-name-gen
+ */
 class NameGenUsSeed extends AbstractSeed
 {
 
