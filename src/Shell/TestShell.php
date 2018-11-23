@@ -2,7 +2,6 @@
 namespace ClearSky\NameGen\Shell;
 
 use Cake\Console\Shell;
-use Croogo\Core\Plugin;
 use ClearSky\NameGen\Utility\Generator;
 
 /**
@@ -25,9 +24,9 @@ class TestShell extends Shell
     public function getOptionParser()
     {
         return parent::getOptionParser()
-            ->description('Croogo Settings utility')
+            ->description('CakePHP name generation utility')
             ->addSubcommand('name', [
-                'help' => __d('croogo', 'Name'),
+                'help' => 'Generate names',
             ]);
     }
 

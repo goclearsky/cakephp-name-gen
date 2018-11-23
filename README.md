@@ -98,4 +98,5 @@ than are possible to uniquely provide based on the size of the pool to pull from
 more names than are reasonable to return by simply randomly picking a name and checking for
 uniqueness. Because of this, ```getNames()``` can actually return a result set smaller than the number
 requested. If this is important, either check the set size upon return, or reduce the requested
-size in relation to the pool size.
+size in relation to the pool size. As it is, 5000 names can be generated in less than 1 second on
+2012 hardware.
