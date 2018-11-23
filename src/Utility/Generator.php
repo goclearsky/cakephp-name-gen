@@ -1,5 +1,5 @@
 <?php
-namespace NameGen\Utility;
+namespace Clearsky\NameGen\Utility;
 
 use Cake\ORM\TableRegistry;
 

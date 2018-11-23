@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NameGen\\": "src"
+            "Clearsky\\NameGen\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NameGen\\Test\\": "tests",
+            "Clearsky\\NameGen\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }

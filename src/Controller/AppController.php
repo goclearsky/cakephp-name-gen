@@ -1,6 +1,5 @@
 <?php
-
-namespace NameGen\Controller;
+namespace Clearsky\NameGen\Controller;
 
 use App\Controller\AppController as BaseController;
 

@@ -1,5 +1,4 @@
 <?php
-
 use Migrations\AbstractSeed;
 
 class NameGenUsSeed extends AbstractSeed

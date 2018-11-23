@@ -1,9 +1,9 @@
 <?php
-namespace NameGen\Shell;
+namespace Clearsky\NameGen\Shell;
 
 use Cake\Console\Shell;
 use Croogo\Core\Plugin;
-use NameGen\Utility\Generator;
+use Clearsky\NameGen\Utility\Generator;
 
 /**
  * Test Shell
